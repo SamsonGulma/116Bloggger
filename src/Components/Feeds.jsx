@@ -5,7 +5,7 @@ import { MdBookmark } from 'react-icons/md'
 
 const Feeds = () => {
   return (
-      <div className='all-feeds'>
+      <div className='all-feeds w-screen mt-[10vh] ml-[5vw] pt-[7vh] pl-[5vw] border border-black '>
           
           <div className=''>
               
