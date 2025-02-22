@@ -1,6 +1,7 @@
 import 'react'
 import '../assets/Styles/Feeds.css'
 import { MdBookmark } from 'react-icons/md'
+import PeopleTrendYourtopic from './PeopleTrendYourtopic'
 
 
 const Feeds = () => {
@@ -47,6 +48,11 @@ const Feeds = () => {
               <p>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam ab fugit tempora magnam! Modi a autem minima, nostrum eaque assumenda provident praesentium, porro vero, ex delectus natus facere rerum sequi!
               </p>
+          </div>
+
+          <div>
+              <PeopleTrendYourtopic />
+              
           </div>
 
         </div>

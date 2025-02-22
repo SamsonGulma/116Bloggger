@@ -10,7 +10,8 @@ function App() {
       <div className='flex'>
       <UpNavbar />
       <SideNavbar/>
-      <Feeds/>
+      <Feeds />
+      
       </div>
     </div>
       
