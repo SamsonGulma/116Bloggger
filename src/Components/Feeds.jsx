@@ -6,13 +6,13 @@ import PeopleTrendYourtopic from './PeopleTrendYourtopic'
 
 const Feeds = () => {
   return (
-      <div className='all-feeds w-screen mt-[10vh] ml-[5vw] pt-[7vh] pl-[5vw] border border-black '>
+      <div className='all-feeds w-screen mt-[10vh] ml-[5vw] pt-[7vh] pl-[5vw] border border-black flex'>
           
           <div className=''>
               
           <div className='for-you'>
               <div className='w-50 h-50 bg-amber-700'>
-                  <img className='w-50 h-50 overflow-hidden' src="../../public/Images/screen.png" alt="" />
+                  <img className='w-50 h-50 overflow-hidden content-auto object-cover' src="../../public/Images/screen.png" alt="" />
               </div>
 
               <div className=''>
@@ -41,14 +41,15 @@ const Feeds = () => {
                   </div>
                 </div>
                       
+              </div>
+              <hr />
+            <div className='all'>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam ab fugit tempora magnam! Modi a autem minima, nostrum eaque assumenda provident praesentium, porro vero, ex delectus natus facere rerum sequi!
+                </p>
             </div>
           </div>
 
-          <div className='all'>
-              <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam ab fugit tempora magnam! Modi a autem minima, nostrum eaque assumenda provident praesentium, porro vero, ex delectus natus facere rerum sequi!
-              </p>
-          </div>
 
           <div>
               <PeopleTrendYourtopic />

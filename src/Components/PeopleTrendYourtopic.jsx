@@ -9,10 +9,12 @@ const PeopleTrendYourtopic = () => {
             <MdPeople/>
           </div>
 
+          <hr />
           <div>
               <MdTrendingUp/>
           </div>
 
+          <hr />
           <div>
               <FaLeaf/>
           </div>
