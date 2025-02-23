@@ -4,7 +4,7 @@ import { MdSearch, MdAccountCircle,  MdMoreVert,} from 'react-icons/md'
 
 const UpNavbar = () => {
   return (
-      <div className='upper-nav-bar fixed h-[10vh] w-screen grid grid-cols-2 gap-4 pl-[5vw] border-b-4 border-b-gray-100 bg-transparent backdrop-blur-3xl'>
+      <div className='upper-nav-bar fixed h-[10vh] w-screen grid grid-cols-2 gap-4 pl-[5vw] border-b-4 border-b-gray-100 bg-transparent backdrop-blur-3xl z-100'>
           <div className='search-bar h-13 w-[25vw] bg-tranparent flex flex-row rounded-4xl overflow-hidden place-self-center justify-self-start ml-[3vw] border-2 border-gray-100'>
             <MdSearch className='place-self-center w-[25px] h-[25px] ml-5 mr-2'/>
             <input type="text" placeholder='Search Blogggs...' className='outline-none w-[30rem]'/> 

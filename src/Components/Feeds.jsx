@@ -12,7 +12,12 @@ const Feeds = () => {
               
           <div className='your_favorite_related-topics row-start-1 col-start-1 row-span-1 relative'>
             
-                  <div className='card_one flex flex-col  border-1'>
+                  {/**
+                   * This first fav-Card Starts here
+                   */}
+                  
+                  
+                   <div className='fav_card_one flex flex-col w-[3in] h-[5in] shadow-2xl rounded-2xl border-1'>
                       
                       <div className='flex pl-2 pt-3'>
                         <div className=''>
@@ -22,29 +27,215 @@ const Feeds = () => {
                         <h4 className='overflow-hidden truncate self-center pl-2'>Samson Gulma Tekeste</h4>
                     </div>
                       
-                <div className='place-content-center bg-amber-700 ml-2'>
+                <div className='place-content-center bg-amber-700 ml-2 mt-2 mr-2'>
                     <img className=' overflow-hidden h-full ' src="../../public/Images/screen.png" alt="" />
                 </div>
         
                 <div className='title_content_authorImg_author_time_bookmark  overflow-hidden'>
-                    <h1 className='font-bold overflow-hidden pl-2'>
+                    <h1 className='font-bold overflow-hidden pl-2 '>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     </h1>
 
-                    <p className='overflow-hidden truncate pl-2'>
+                    <p className='overflow-hidden pl-2 pr-2'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Libero esse aut asperiores enim, nam similique debitis nemo ad
                         odit accusantium quis recusandae tempora suscipit obcaecati
                         aspernatur. Rerum facere accusantium autem.
+                        
                     </p>
 
+                </div>
                     <div className='grid grid-cols-2 auto-rows-auto ml-2 mt-4 mb-4 '>
                         <p className='font-extralight'>0sec ago</p>
                         <MdBookmark className=' h-5 w-5 self-center text-right justify-self-end mr-7'/>
                     </div>
                           
+                  </div>
+                  
+                  {/**
+                   * This second fav-Card ends here!!!
+                   * 
+                   * 
+                   * ...then the third fav-Card starts here
+                   */}
+                   <div className='fav_card_two flex flex-col w-[3in] h-[5in] shadow-2xl rounded-2xl border-1'>
+                      
+                      <div className='flex pl-2 pt-3'>
+                        <div className=''>
+                            <img className=' h-[30px] w-[30px] bg-black rounded-lg self-center' src="" alt="" />
+                        </div>
+
+                        <h4 className='overflow-hidden truncate self-center pl-2'>Samson Gulma Tekeste</h4>
+                    </div>
+                      
+                <div className='place-content-center bg-amber-700 ml-2 mt-2 mr-2'>
+                    <img className=' overflow-hidden h-full ' src="../../public/Images/screen.png" alt="" />
                 </div>
-            </div>
+        
+                <div className='title_content_authorImg_author_time_bookmark  overflow-hidden'>
+                    <h1 className='font-bold overflow-hidden pl-2 '>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    </h1>
+
+                    <p className='overflow-hidden pl-2 pr-2'>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Libero esse aut asperiores enim, nam similique debitis nemo ad
+                        odit accusantium quis recusandae tempora suscipit obcaecati
+                        aspernatur. Rerum facere accusantium autem.
+                        
+                    </p>
+
+                </div>
+                    <div className='grid grid-cols-2 auto-rows-auto ml-2 mt-4 mb-4 '>
+                        <p className='font-extralight'>0sec ago</p>
+                        <MdBookmark className=' h-5 w-5 self-center text-right justify-self-end mr-7'/>
+                    </div>
+                          
+                  </div>
+
+
+
+                  {/**
+                   * This third fav-Card ends here!!!
+                   * 
+                   * 
+                   * ...then the fourth fav-Card starts here
+                   
+                  
+                <div className='fav_card_three flex flex-col w-[3in] h-[5in] shadow-2xl rounded-2xl border-1'>
+                      
+                      <div className='flex pl-2 pt-3'>
+                        <div className=''>
+                            <img className=' h-[30px] w-[30px] bg-black rounded-lg self-center' src="" alt="" />
+                        </div>
+
+                        <h4 className='overflow-hidden truncate self-center pl-2'>Samson Gulma Tekeste</h4>
+                    </div>
+                      
+                <div className='place-content-center bg-amber-700 ml-2 mt-2 mr-2'>
+                    <img className=' overflow-hidden h-full ' src="../../public/Images/screen.png" alt="" />
+                </div>
+        
+                <div className='title_content_authorImg_author_time_bookmark  overflow-hidden'>
+                    <h1 className='font-bold overflow-hidden pl-2 '>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    </h1>
+
+                    <p className='overflow-hidden pl-2 pr-2'>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Libero esse aut asperiores enim, nam similique debitis nemo ad
+                        odit accusantium quis recusandae tempora suscipit obcaecati
+                        aspernatur. Rerum facere accusantium autem.
+                        
+                    </p>
+
+                </div>
+                    <div className='grid grid-cols-2 auto-rows-auto ml-2 mt-4 mb-4 '>
+                        <p className='font-extralight'>0sec ago</p>
+                        <MdBookmark className=' h-5 w-5 self-center text-right justify-self-end mr-7'/>
+                    </div>
+                          
+                  </div>
+                  */}
+
+
+                  {/**
+                   * This fourth fav-Card ends here!!!
+                   * 
+                   * 
+                   * ...then the fifth fav-Card starts here
+                   
+
+                   <div className='fav_card_four flex flex-col w-[3in] h-[5in] shadow-2xl rounded-2xl border-1'>
+                      
+                      <div className='flex pl-2 pt-3'>
+                        <div className=''>
+                            <img className=' h-[30px] w-[30px] bg-black rounded-lg self-center' src="" alt="" />
+                        </div>
+
+                        <h4 className='overflow-hidden truncate self-center pl-2'>Samson Gulma Tekeste</h4>
+                    </div>
+                      
+                <div className='place-content-center bg-amber-700 ml-2 mt-2 mr-2'>
+                    <img className=' overflow-hidden h-full ' src="../../public/Images/screen.png" alt="" />
+                </div>
+        
+                <div className='title_content_authorImg_author_time_bookmark  overflow-hidden'>
+                    <h1 className='font-bold overflow-hidden pl-2 '>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    </h1>
+
+                    <p className='overflow-hidden pl-2 pr-2'>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Libero esse aut asperiores enim, nam similique debitis nemo ad
+                        odit accusantium quis recusandae tempora suscipit obcaecati
+                        aspernatur. Rerum facere accusantium autem.
+                        
+                    </p>
+
+                </div>
+                    <div className='grid grid-cols-2 auto-rows-auto ml-2 mt-4 mb-4 '>
+                        <p className='font-extralight'>0sec ago</p>
+                        <MdBookmark className=' h-5 w-5 self-center text-right justify-self-end mr-7'/>
+                    </div>
+                          
+                  </div>
+
+                  */}
+
+                   {/**
+                   * This fourth fav-Card ends here!!!
+                   * 
+                   * 
+                   * ...then the fifth fav-Card starts here
+                   
+
+                   <div className='fav_card_five flex flex-col w-[3in] h-[5in] shadow-2xl rounded-2xl border-1'>
+                      
+                      <div className='flex pl-2 pt-3'>
+                        <div className=''>
+                            <img className=' h-[30px] w-[30px] bg-black rounded-lg self-center' src="" alt="" />
+                        </div>
+
+                        <h4 className='overflow-hidden truncate self-center pl-2'>Samson Gulma Tekeste</h4>
+                    </div>
+                      
+                <div className='place-content-center bg-amber-700 ml-2 mt-2 mr-2'>
+                    <img className=' overflow-hidden h-full ' src="../../public/Images/screen.png" alt="" />
+                </div>
+        
+                <div className='title_content_authorImg_author_time_bookmark  overflow-hidden'>
+                    <h1 className='font-bold overflow-hidden pl-2 '>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    </h1>
+
+                    <p className='overflow-hidden pl-2 pr-2'>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Libero esse aut asperiores enim, nam similique debitis nemo ad
+                        odit accusantium quis recusandae tempora suscipit obcaecati
+                        aspernatur. Rerum facere accusantium autem.
+                        
+                    </p>
+
+                </div>
+                    <div className='grid grid-cols-2 auto-rows-auto ml-2 mt-4 mb-4 '>
+                        <p className='font-extralight'>0sec ago</p>
+                        <MdBookmark className=' h-5 w-5 self-center text-right justify-self-end mr-7'/>
+                    </div>
+                          
+                  </div>
+                  */}
+
+ {/**
+                   * This Fifth fav-Card ends here!!!
+                   *
+                   * 
+                   * then the all_the_rest_blogggs card starts
+                   */}
+
+
+
+
                      
             </div>
 
