@@ -269,7 +269,7 @@ const Feeds = () => {
           </div>
 
 
-          <div>
+          <div className=''>
             <PeopleTrendYourtopic />
               
           </div>
