@@ -6,7 +6,7 @@ import PeopleTrendYourtopic from './PeopleTrendYourtopic'
 
 const Feeds = () => {
   return (
-      <div className='feeds_and_blogggs_container w-screen mt-[10vh] ml-[5vw] pt-[7vh] pl-[5vw] border border-black grid grid-cols-3 grid-rows-2 grid-flow-col'>
+      <div className='feeds_and_blogggs_container w-full mt-[10vh] ml-[5vw] pt-[7vh] pl-[5vw] border border-black grid grid-cols-3 grid-rows-2 grid-flow-col'>
           
         <div className='all_blogggs_for_you grid grid-cols-3 grid-rows-[auto_1fr] row-start-1 col-start-1 row-span-2 col-span-2'>
               
@@ -17,7 +17,7 @@ const Feeds = () => {
                    */}
                   
                   
-                  <div className='fav_card_one flex flex-col  mt-20  shadow-2xl rounded-2xl border-1'>
+                  <div className='fav_card_one flex flex-col  shadow-2xl rounded-2xl border-1 border-gray-200'>
                       
                       <div className='flex pl-2 pt-3'>
                         <div className=''>
@@ -32,11 +32,14 @@ const Feeds = () => {
                         </div>
                         <div className='title_content_authorImg_author_time_bookmark  overflow-hidden'>
                             <h1 className='font-extrabold overflow-hidden pl-2 '>
-                                Lorem, ipsum dolor
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti beatae et repellat ea ad
                             </h1>
 
                             <p className='overflow-hidden pl-2 pr-2'>
-                                Lorem ipsum dolor sit amet . . .
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                              Possimus exercitationem quasi dolor, quis, rerum odio, a tenetur
+                              deleniti error voluptatibus voluptatem. Sapiente labore odio corporis,
+                              recusandae totam eveniet cum fugit.
                                 
                             </p>
                       </div>
@@ -51,13 +54,16 @@ const Feeds = () => {
                     </div>
                           
                   </div>
+
+
+
+
+                  {
+                      /**
+                       * 
+                      
  
-                  {/**
-                   * This first fav-Card ends here!!!
-                   * 
-                   * 
-                   * ...then the second fav-Card starts here
-                   */}
+                 
 
                    <div className='fav_card_two flex flex-col shadow-2xl rounded-2xl border-1'>
                       
@@ -103,12 +109,14 @@ const Feeds = () => {
                           
                   </div>
 
-                  {/**
-                   * This second fav-Card ends here!!!
-                   * 
-                   * 
-                   * ...then the third fav-Card starts here
-                   */}
+                 
+        
+        
+
+
+
+
+
                   
                 <div className='fav_card_three flex flex-col shadow-2xl rounded-2xl border-1'>
                       
@@ -156,12 +164,7 @@ const Feeds = () => {
                   
 
 
-                  {/**
-                   * This third fav-Card ends here!!!
-                   * 
-                   * 
-                   * ...then the fourth fav-Card starts here
-                    */}
+                  
 
                    <div className='fav_card_four flex flex-col  shadow-2xl rounded-2xl border-1'>
                       
@@ -204,12 +207,7 @@ const Feeds = () => {
 
                  
 
-                   {/**
-                   * This fourth fav-Card ends here!!!
-                   * 
-                   * 
-                   * ...then the fifth fav-Card starts here
-                   */}
+                   
 
                    <div className='fav_card_five flex flex-col shadow-2xl rounded-2xl border-1'>
                       
@@ -247,12 +245,17 @@ const Feeds = () => {
                   </div>
 
                   
-                {/**
-                   * This Fifth fav-Card ends here!!!
-                   *
-                   * 
-                   * then the all_the_rest_blogggs card starts
-                   */}
+               
+               
+
+
+
+
+
+
+
+                   */
+                  }
 
                      
             </div>
@@ -261,7 +264,8 @@ const Feeds = () => {
                 <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam ab fugit tempora magnam! Modi a autem minima, nostrum eaque assumenda provident praesentium, porro vero, ex delectus natus facere rerum sequi!
                 </p>
-            </div>
+              </div>
+              
           </div>
 
 
