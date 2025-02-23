@@ -10,14 +10,14 @@ const Feeds = () => {
           
         <div className='all_blogggs_for_you grid grid-cols-3 grid-rows-[auto_1fr] row-start-1 col-start-1 row-span-2 col-span-2'>
               
-          <div className='your_favorite_related-topics grid auto-rows-[300px] grid-cols-4 gap-4 row-start-1 col-start-1 row-span-1'>
+          <div className='your_favorite_related-topics row-start-1 col-start-1 row-span-1'>
             
                   {/**
                    * This first fav-Card Starts here
                    */}
                   
                   
-                  <div className='fav_card_one flex flex-col row-start-2 col-start-1 row-span-2 col-span-3 shadow-2xl rounded-2xl border-1'>
+                  <div className='fav_card_one flex flex-col  mt-20  shadow-2xl rounded-2xl border-1'>
                       
                       <div className='flex pl-2 pt-3'>
                         <div className=''>
@@ -59,7 +59,7 @@ const Feeds = () => {
                    * ...then the second fav-Card starts here
                    */}
 
-                   <div className='fav_card_two flex flex-col row-start-1 col-start-2 row-span-3 col-span-6 shadow-2xl rounded-2xl border-1'>
+                   <div className='fav_card_two flex flex-col shadow-2xl rounded-2xl border-1'>
                       
                       <div className='flex pl-2 pt-3'>
                         <div className=''>
@@ -110,7 +110,7 @@ const Feeds = () => {
                    * ...then the third fav-Card starts here
                    */}
                   
-                <div className='fav_card_three flex flex-col row-start-2 col-start-3 col-span-3 row-span-2 shadow-2xl rounded-2xl border-1'>
+                <div className='fav_card_three flex flex-col shadow-2xl rounded-2xl border-1'>
                       
                       <div className='flex pl-2 pt-3'>
                         <div className=''>
@@ -163,7 +163,7 @@ const Feeds = () => {
                    * ...then the fourth fav-Card starts here
                     */}
 
-                   <div className='fav_card_four flex flex-col row-start-3 col-start-3 row-span-2 col-span-2 shadow-2xl rounded-2xl border-1'>
+                   <div className='fav_card_four flex flex-col  shadow-2xl rounded-2xl border-1'>
                       
                       <div className='flex pl-2 pt-3'>
                         <div className=''>
@@ -211,7 +211,7 @@ const Feeds = () => {
                    * ...then the fifth fav-Card starts here
                    */}
 
-                   <div className='fav_card_five flex flex-col row-start-3 col-start-4 shadow-2xl rounded-2xl border-1'>
+                   <div className='fav_card_five flex flex-col shadow-2xl rounded-2xl border-1'>
                       
                       <div className='flex pl-2 pt-3'>
                         <div className=''>
