@@ -16,8 +16,49 @@ const Feeds = () => {
                    * This first fav-Card Starts here
                    */}
                   
-                  
-                   <div className='fav_card_one flex flex-col w-[3in] h-[5in] shadow-2xl rounded-2xl border-1'>
+                  <div className='fav_card_one flex flex-col w-[3in] h-[3.4in] shadow-2xl rounded-2xl border-1'>
+                      
+                      <div className='flex pl-2 pt-3'>
+                        <div className=''>
+                            <img className=' h-[30px] w-[30px] bg-black rounded-lg self-center' src="" alt="" />
+                        </div>
+
+                        <h4 className='overflow-hidden truncate self-center pl-2'>Samson Gulma Tekeste</h4>
+                    </div>
+                    
+                        <div className='place-content-center bg-amber-700 ml-2 mt-2 mr-2'>
+                            <img className=' overflow-hidden h-full ' src="../../public/Images/screen.png" alt="" />
+                        </div>
+                        <div className='title_content_authorImg_author_time_bookmark  overflow-hidden'>
+                            <h1 className='font-extrabold overflow-hidden pl-2 '>
+                                Lorem, ipsum dolor
+                            </h1>
+
+                            <p className='overflow-hidden pl-2 pr-2'>
+                                Lorem ipsum dolor sit amet . . .
+                                
+                            </p>
+                      </div>
+                      
+                      <div className='flex flex-row'>
+                          <p className='underline decoration-dotted pl-2 font-semibold'>Read more -&gt;</p>
+                      </div>
+                
+                    <div className='grid grid-cols-2 auto-rows-auto ml-2 mt-4 mb-4 '>
+                        <p className='font-extralight'>0sec ago</p>
+                        <MdBookmark className=' h-5 w-5 self-center text-right justify-self-end mr-7'/>
+                    </div>
+                          
+                  </div>
+ 
+                  {/**
+                   * This first fav-Card ends here!!!
+                   * 
+                   * 
+                   * ...then the second fav-Card starts here
+                   */}
+
+                   <div className='fav_card_two flex flex-col w-[3in] h-[7in] shadow-2xl rounded-2xl border-1'>
                       
                       <div className='flex pl-2 pt-3'>
                         <div className=''>
@@ -32,7 +73,7 @@ const Feeds = () => {
                 </div>
         
                 <div className='title_content_authorImg_author_time_bookmark  overflow-hidden'>
-                    <h1 className='font-bold overflow-hidden pl-2 '>
+                    <h1 className='font-extrabold overflow-hidden pl-2 '>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     </h1>
 
@@ -40,25 +81,35 @@ const Feeds = () => {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Libero esse aut asperiores enim, nam similique debitis nemo ad
                         odit accusantium quis recusandae tempora suscipit obcaecati
-                        aspernatur. Rerum facere accusantium autem.
+                              aspernatur. Rerum facere accusantium autem. Lorem ipsum dolor sit amet
+                              consectetur adipisicing elit. Quod culpa ullam accusantium
+                              nesciunt modi aut vel explicabo, debitis in. Exercitationem
+                              doloremque eum, nemo autem necessitatibus eius minus velit iure culpa!
+                          consectetur adipisicing elit. Quod culpa ullam accusantium
+                              nesciunt modi aut vel explicabo, debitis in. Exercitationem
+                              doloremque eum, nemo autem necessitatibus eius minus velit iure culpa!
                         
                     </p>
 
-                </div>
+                      </div>
+                      <div className='flex flex-row'>
+                          <p className='underline decoration-dotted pl-2 font-semibold'>Read more -&gt;</p>
+                      </div>
                     <div className='grid grid-cols-2 auto-rows-auto ml-2 mt-4 mb-4 '>
                         <p className='font-extralight'>0sec ago</p>
                         <MdBookmark className=' h-5 w-5 self-center text-right justify-self-end mr-7'/>
                     </div>
                           
                   </div>
-                  
+
                   {/**
                    * This second fav-Card ends here!!!
                    * 
                    * 
                    * ...then the third fav-Card starts here
                    */}
-                   <div className='fav_card_two flex flex-col w-[3in] h-[5in] shadow-2xl rounded-2xl border-1'>
+                  
+                <div className='fav_card_three flex flex-col w-[3.7in] h-[3in] shadow-2xl rounded-2xl border-1'>
                       
                       <div className='flex pl-2 pt-3'>
                         <div className=''>
@@ -66,33 +117,42 @@ const Feeds = () => {
                         </div>
 
                         <h4 className='overflow-hidden truncate self-center pl-2'>Samson Gulma Tekeste</h4>
-                    </div>
+                      </div>
                       
-                <div className='place-content-center bg-amber-700 ml-2 mt-2 mr-2'>
-                    <img className=' overflow-hidden h-full ' src="../../public/Images/screen.png" alt="" />
-                </div>
-        
-                <div className='title_content_authorImg_author_time_bookmark  overflow-hidden'>
-                    <h1 className='font-bold overflow-hidden pl-2 '>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    </h1>
-
-                    <p className='overflow-hidden pl-2 pr-2'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Libero esse aut asperiores enim, nam similique debitis nemo ad
-                        odit accusantium quis recusandae tempora suscipit obcaecati
-                        aspernatur. Rerum facere accusantium autem.
+                      <div className='card_contents flex flex-row overflow-hidden'>
+                          
                         
-                    </p>
+                
+                        <div className='title_content_authorImg_author_time_bookmark  overflow-hidden'>
+                            <h1 className='font-extrabold overflow-hidden pl-2 pr-1'>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </h1>
 
-                </div>
+                            <p className='overflow-hidden pl-2 pr-2'>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Libero esse aut asperiores enim, nam similique debitis nemo ad
+                                odit accusantium quis recusandae tempora suscipit obcaecati
+                                aspernatur. Rerum facere accusantium autem.
+                                
+                            </p>
+
+                          </div>
+                          <div className='place-content-center w-[20in] h-[2in] bg-amber-700 ml-2 mt-2 mr-2'>
+                            <img className=' overflow-hidden h-full ' src="../../public/Images/screen.png" alt="" />
+                        </div>
+                      </div>
+                      <div className='flex flex-row pb-4'>
+                          <p className='underline decoration-dotted pl-2  font-semibold absolute left-0'>Read more -&gt;</p>
+                      </div>
+
+                
                     <div className='grid grid-cols-2 auto-rows-auto ml-2 mt-4 mb-4 '>
                         <p className='font-extralight'>0sec ago</p>
                         <MdBookmark className=' h-5 w-5 self-center text-right justify-self-end mr-7'/>
                     </div>
                           
                   </div>
-
+                  
 
 
                   {/**
@@ -100,9 +160,9 @@ const Feeds = () => {
                    * 
                    * 
                    * ...then the fourth fav-Card starts here
-                   
-                  
-                <div className='fav_card_three flex flex-col w-[3in] h-[5in] shadow-2xl rounded-2xl border-1'>
+                    */}
+
+                   <div className='fav_card_four flex flex-col w-[3in] h-[4.7in] shadow-2xl rounded-2xl border-1'>
                       
                       <div className='flex pl-2 pt-3'>
                         <div className=''>
@@ -130,50 +190,10 @@ const Feeds = () => {
                     </p>
 
                 </div>
-                    <div className='grid grid-cols-2 auto-rows-auto ml-2 mt-4 mb-4 '>
-                        <p className='font-extralight'>0sec ago</p>
-                        <MdBookmark className=' h-5 w-5 self-center text-right justify-self-end mr-7'/>
+
+                    <div className='flex flex-row'>
+                        <p className='underline decoration-dotted pl-2 font-semibold'>Read more -&gt;</p>
                     </div>
-                          
-                  </div>
-                  */}
-
-
-                  {/**
-                   * This fourth fav-Card ends here!!!
-                   * 
-                   * 
-                   * ...then the fifth fav-Card starts here
-                   
-
-                   <div className='fav_card_four flex flex-col w-[3in] h-[5in] shadow-2xl rounded-2xl border-1'>
-                      
-                      <div className='flex pl-2 pt-3'>
-                        <div className=''>
-                            <img className=' h-[30px] w-[30px] bg-black rounded-lg self-center' src="" alt="" />
-                        </div>
-
-                        <h4 className='overflow-hidden truncate self-center pl-2'>Samson Gulma Tekeste</h4>
-                    </div>
-                      
-                <div className='place-content-center bg-amber-700 ml-2 mt-2 mr-2'>
-                    <img className=' overflow-hidden h-full ' src="../../public/Images/screen.png" alt="" />
-                </div>
-        
-                <div className='title_content_authorImg_author_time_bookmark  overflow-hidden'>
-                    <h1 className='font-bold overflow-hidden pl-2 '>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    </h1>
-
-                    <p className='overflow-hidden pl-2 pr-2'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Libero esse aut asperiores enim, nam similique debitis nemo ad
-                        odit accusantium quis recusandae tempora suscipit obcaecati
-                        aspernatur. Rerum facere accusantium autem.
-                        
-                    </p>
-
-                </div>
                     <div className='grid grid-cols-2 auto-rows-auto ml-2 mt-4 mb-4 '>
                         <p className='font-extralight'>0sec ago</p>
                         <MdBookmark className=' h-5 w-5 self-center text-right justify-self-end mr-7'/>
@@ -181,16 +201,16 @@ const Feeds = () => {
                           
                   </div>
 
-                  */}
+                 
 
                    {/**
                    * This fourth fav-Card ends here!!!
                    * 
                    * 
                    * ...then the fifth fav-Card starts here
-                   
+                   */}
 
-                   <div className='fav_card_five flex flex-col w-[3in] h-[5in] shadow-2xl rounded-2xl border-1'>
+                   <div className='fav_card_five flex flex-col w-[3in] h-[3.4in] shadow-2xl rounded-2xl border-1'>
                       
                       <div className='flex pl-2 pt-3'>
                         <div className=''>
@@ -199,42 +219,39 @@ const Feeds = () => {
 
                         <h4 className='overflow-hidden truncate self-center pl-2'>Samson Gulma Tekeste</h4>
                     </div>
+                    
+                        <div className='place-content-center bg-amber-700 ml-2 mt-2 mr-2'>
+                            <img className=' overflow-hidden h-full ' src="../../public/Images/screen.png" alt="" />
+                        </div>
+                        <div className='title_content_authorImg_author_time_bookmark  overflow-hidden'>
+                            <h1 className='font-extrabold overflow-hidden pl-2 '>
+                                Lorem, ipsum dolor
+                            </h1>
+
+                            <p className='overflow-hidden pl-2 pr-2'>
+                                Lorem ipsum dolor sit amet . . .
+                                
+                            </p>
+                      </div>
                       
-                <div className='place-content-center bg-amber-700 ml-2 mt-2 mr-2'>
-                    <img className=' overflow-hidden h-full ' src="../../public/Images/screen.png" alt="" />
-                </div>
-        
-                <div className='title_content_authorImg_author_time_bookmark  overflow-hidden'>
-                    <h1 className='font-bold overflow-hidden pl-2 '>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    </h1>
-
-                    <p className='overflow-hidden pl-2 pr-2'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Libero esse aut asperiores enim, nam similique debitis nemo ad
-                        odit accusantium quis recusandae tempora suscipit obcaecati
-                        aspernatur. Rerum facere accusantium autem.
-                        
-                    </p>
-
-                </div>
+                      <div className='flex flex-row'>
+                          <p className='underline decoration-dotted pl-2 font-semibold'>Read more -&gt;</p>
+                      </div>
+                
                     <div className='grid grid-cols-2 auto-rows-auto ml-2 mt-4 mb-4 '>
                         <p className='font-extralight'>0sec ago</p>
                         <MdBookmark className=' h-5 w-5 self-center text-right justify-self-end mr-7'/>
                     </div>
                           
                   </div>
-                  */}
 
- {/**
+                  
+                {/**
                    * This Fifth fav-Card ends here!!!
                    *
                    * 
                    * then the all_the_rest_blogggs card starts
                    */}
-
-
-
 
                      
             </div>
