@@ -10,20 +10,21 @@ const Feeds = () => {
           
         <div className='all_blogggs_for_you grid grid-cols-3 grid-rows-[auto_1fr] row-start-1 col-start-1 row-span-2 col-span-2'>
               
-          <div className='your_favorite_related-topics row-start-1 col-start-1 row-span-1 relative'>
+          <div className='your_favorite_related-topics grid auto-rows-[300px] grid-cols-4 gap-4 row-start-1 col-start-1 row-span-1'>
             
                   {/**
                    * This first fav-Card Starts here
                    */}
                   
-                  <div className='fav_card_one flex flex-col w-[3in] h-[3.4in] shadow-2xl rounded-2xl border-1'>
+                  
+                  <div className='fav_card_one flex flex-col row-start-2 col-start-1 row-span-2 col-span-3 shadow-2xl rounded-2xl border-1'>
                       
                       <div className='flex pl-2 pt-3'>
                         <div className=''>
                             <img className=' h-[30px] w-[30px] bg-black rounded-lg self-center' src="" alt="" />
                         </div>
 
-                        <h4 className='overflow-hidden truncate self-center pl-2'>Samson Gulma Tekeste</h4>
+                        <h4 className='overflow-hidden truncate self-center pl-2'>Samson Gulma Tekeste 1</h4>
                     </div>
                     
                         <div className='place-content-center bg-amber-700 ml-2 mt-2 mr-2'>
@@ -58,14 +59,14 @@ const Feeds = () => {
                    * ...then the second fav-Card starts here
                    */}
 
-                   <div className='fav_card_two flex flex-col w-[3in] h-[7in] shadow-2xl rounded-2xl border-1'>
+                   <div className='fav_card_two flex flex-col row-start-1 col-start-2 row-span-3 col-span-6 shadow-2xl rounded-2xl border-1'>
                       
                       <div className='flex pl-2 pt-3'>
                         <div className=''>
                             <img className=' h-[30px] w-[30px] bg-black rounded-lg self-center' src="" alt="" />
                         </div>
 
-                        <h4 className='overflow-hidden truncate self-center pl-2'>Samson Gulma Tekeste</h4>
+                        <h4 className='overflow-hidden truncate self-center pl-2'>Samson Gulma Tekeste 2</h4>
                     </div>
                       
                 <div className='place-content-center bg-amber-700 ml-2 mt-2 mr-2'>
@@ -109,14 +110,14 @@ const Feeds = () => {
                    * ...then the third fav-Card starts here
                    */}
                   
-                <div className='fav_card_three flex flex-col w-[3.7in] h-[3in] shadow-2xl rounded-2xl border-1'>
+                <div className='fav_card_three flex flex-col row-start-2 col-start-3 col-span-3 row-span-2 shadow-2xl rounded-2xl border-1'>
                       
                       <div className='flex pl-2 pt-3'>
                         <div className=''>
                             <img className=' h-[30px] w-[30px] bg-black rounded-lg self-center' src="" alt="" />
                         </div>
 
-                        <h4 className='overflow-hidden truncate self-center pl-2'>Samson Gulma Tekeste</h4>
+                        <h4 className='overflow-hidden truncate self-center pl-2'>Samson Gulma Tekeste 3</h4>
                       </div>
                       
                       <div className='card_contents flex flex-row overflow-hidden'>
@@ -142,7 +143,7 @@ const Feeds = () => {
                         </div>
                       </div>
                       <div className='flex flex-row pb-4'>
-                          <p className='underline decoration-dotted pl-2  font-semibold absolute left-0'>Read more -&gt;</p>
+                          <p className='underline decoration-dotted pl-2  font-semibold'>Read more -&gt;</p>
                       </div>
 
                 
@@ -162,14 +163,14 @@ const Feeds = () => {
                    * ...then the fourth fav-Card starts here
                     */}
 
-                   <div className='fav_card_four flex flex-col w-[3in] h-[4.7in] shadow-2xl rounded-2xl border-1'>
+                   <div className='fav_card_four flex flex-col row-start-3 col-start-3 row-span-2 col-span-2 shadow-2xl rounded-2xl border-1'>
                       
                       <div className='flex pl-2 pt-3'>
                         <div className=''>
                             <img className=' h-[30px] w-[30px] bg-black rounded-lg self-center' src="" alt="" />
                         </div>
 
-                        <h4 className='overflow-hidden truncate self-center pl-2'>Samson Gulma Tekeste</h4>
+                        <h4 className='overflow-hidden truncate self-center pl-2'>Samson Gulma Tekeste 4</h4>
                     </div>
                       
                 <div className='place-content-center bg-amber-700 ml-2 mt-2 mr-2'>
@@ -210,14 +211,14 @@ const Feeds = () => {
                    * ...then the fifth fav-Card starts here
                    */}
 
-                   <div className='fav_card_five flex flex-col w-[3in] h-[3.4in] shadow-2xl rounded-2xl border-1'>
+                   <div className='fav_card_five flex flex-col row-start-3 col-start-4 shadow-2xl rounded-2xl border-1'>
                       
                       <div className='flex pl-2 pt-3'>
                         <div className=''>
                             <img className=' h-[30px] w-[30px] bg-black rounded-lg self-center' src="" alt="" />
                         </div>
 
-                        <h4 className='overflow-hidden truncate self-center pl-2'>Samson Gulma Tekeste</h4>
+                        <h4 className='overflow-hidden truncate self-center pl-2'>Samson Gulma Tekeste 5</h4>
                     </div>
                     
                         <div className='place-content-center bg-amber-700 ml-2 mt-2 mr-2'>
