@@ -13,7 +13,7 @@ const UpNavbar = () => {
       <div className='justify-self-end flex flex-row gap-[7vw] '>
           <div className='profile flex flex-row ml-[20vw] h-13 place-self-center gap-4 '>
               <MdAccountCircle className='place-self-center justify-end w-[40px] h-[40px] cursor-pointer'/>
-              <p className='place-self-center text-right underline decoration-dotted cursor-pointer'>Samson Gulma Tekeste</p>
+              <p className='place-self-center text-right underline decoration-dotted hover:decoration-solid cursor-pointer'>Samson Gulma Tekeste</p>
           </div>
           <div className='ver-one flex flex-row w-7 h-7 justify-center place-self-center mr-20 rounded-[100%] border-1' title='avur YHWH-116Bloggger +Version 1.0'>
               <MdMoreVert className='place-self-center w-[20px] h-[20px] cursor-pointer'/>
