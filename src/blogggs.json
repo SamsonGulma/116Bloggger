@@ -1,0 +1,34 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "content_title": "Exploring the Future of AI",
+      "content_text": "Artificial Intelligence is transforming the way we interact with technology...",
+      "content_picture": "https://example.com/images/ai-future.jpg",
+      "content_author_name": "John Doe",
+      "content_author_picture": "https://example.com/authors/john.jpg",
+      "content_posted_date": "2025-02-24T12:00:00Z",
+      "bookmark": false
+    },
+    {
+      "id": 2,
+      "content_title": "10 Tips for Effective Remote Work",
+      "content_text": "Working remotely has become the new normal. Here are 10 tips to stay productive...",
+      "content_picture": "https://example.com/images/remote-work.jpg",
+      "content_author_name": "Jane Smith",
+      "content_author_picture": "https://example.com/authors/jane.jpg",
+      "content_posted_date": "2025-02-23T15:30:00Z",
+      "bookmark": true
+    },
+    {
+      "id": 3,
+      "content_title": "The Rise of Quantum Computing",
+      "content_text": "Quantum computing is set to revolutionize industries. Let's explore how...",
+      "content_picture": "https://example.com/images/quantum.jpg",
+      "content_author_name": "Alice Brown",
+      "content_author_picture": "https://example.com/authors/alice.jpg",
+      "content_posted_date": "2025-02-22T09:45:00Z",
+      "bookmark": false
+    }
+  ]
+}
