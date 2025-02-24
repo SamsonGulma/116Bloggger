@@ -6,7 +6,8 @@ import { MdBookmark } from 'react-icons/md'
 const AllTheRestBlogggsHero = () => {
   return (
       <div className='shadow-2xl rounded-2xl'>
-            <div className='flex pl-2 pt-3 '>
+          
+            <div className='flex pl-7 pt-3 '>
                 <div className=''>
                   <img className=' h-[30px] w-[30px] bg-black rounded-lg self-center' src="" alt="" />
                 </div>

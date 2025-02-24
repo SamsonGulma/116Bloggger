@@ -6,7 +6,7 @@ const Heros = () => {
   return (
     <div className='fav_card_one flex flex-col  shadow-2xl rounded-2xl border-1 border-gray-200'>
                       
-        <div className='flex pl-2 pt-3'>
+        <div className='flex pl-7 pt-3'>
             <div className=''>
                 <img className=' h-[30px] w-[30px] bg-black rounded-lg self-center' src="" alt="" />
             </div>
