@@ -13,8 +13,10 @@ const PeopleTrendYourtopic = () => {
         <div className='flex flex-col ml-14'>
           
           <div className='flex flex-row mb-4  items-center'>
-            <img src="" alt="" className='w-[25px] h-[25px] cursor-pointer rounded-full bg-blue-100' />          
+            <div className='flex flex-row'>
+              <img src="" alt="" className='w-[25px] h-[25px] cursor-pointer rounded-full bg-blue-100' />          
             <h3 className='ml-1.5 mr-1.5 hover:underline hover:decoration-solid hover cursor-pointer'>The Bible Project</h3>
+            </div>
             <button className='h-[40px] border-2 pr-2 pl-2 rounded-3xl self-center m-1.5 cursor-pointer hover:bg-black hover:text-white'>Following</button>
             
           </div>
