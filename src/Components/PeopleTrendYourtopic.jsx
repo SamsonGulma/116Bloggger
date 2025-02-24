@@ -7,7 +7,7 @@ const PeopleTrendYourtopic = () => {
       <div className=''>
         <div className='people-to-follow mt-4 '>
           <div className='flex flex-row ml-7 mt-7 mb-5 items-center'>
-            <MdPeople className='text-gray-500 text-lg'/>
+            <MdPeople className=' text-lg'/>
             <h1 className='ml-1 font-medium text-lg'>People who to follow</h1>
           </div>
         <div className='flex flex-col ml-14'>
@@ -37,7 +37,7 @@ const PeopleTrendYourtopic = () => {
           <hr className='w-[20vw] place-self-center mt-7 mb-4 border-gray-300'/>
         <div className='trendingup mt-4'>
           <div className='flex flex-row ml-7 mt-7 mb-7 items-center'>
-            <MdTrendingUp className='text-gray-500 text-lg'/>
+            <MdTrendingUp className=' text-lg'/>
             <h1 className='ml-1 font-medium text-lg'>Today&apos;s top trends</h1>
           </div>
 
@@ -82,7 +82,7 @@ const PeopleTrendYourtopic = () => {
           <hr className='w-[20vw] place-self-center mt-7 mb-4 border-gray-300'/>
         <div className='topics-for-you mt-7'>
           <div className='flex flex-row ml-7 mb-7 items-center'>
-            <FaLeaf className='text-gray-500 text-lg' />
+            <FaLeaf className=' text-lg' />
             <h1 className='ml-1 font-medium text-lg'>Topics for you from Our Team.</h1>  
           </div>
           <div className='ml-14 items-center mb-3'>
