@@ -86,13 +86,13 @@ const PeopleTrendYourtopic = () => {
             <h1 className='ml-1 font-medium text-lg'>Topics for you from Our Team.</h1>  
           </div>
           <div className='ml-14 items-center mb-3'>
-            <button className='h-[40px] border-2 pr-2 pl-2 rounded-3xl self-center m-1.5 cursor-pointer'>Bloggger</button>
-            <button className='h-[40px] border-2 pr-2 pl-2 rounded-3xl self-center m-1.5 cursor-pointer'>Programming</button>
-            <button className='h-[40px] border-2 pr-2 pl-2 rounded-3xl self-center m-1.5 cursor-pointer'>Programmmmmming</button>
-            <button className='h-[40px] border-2 pr-2 pl-2 rounded-3xl self-center m-1.5 cursor-pointer'>116</button>
-            <button className='h-[40px] border-2 pr-2 pl-2 rounded-3xl self-center m-1.5 cursor-pointer'>Progggggramming</button>
-            <button className='h-[40px] border-2 pr-2 pl-2 rounded-3xl self-center m-1.5 cursor-pointer'>Blogggs</button>
-            <button className='h-[40px] border-2 pr-2 pl-2 rounded-3xl self-center m-1.5 cursor-pointer'>Programming</button>
+            <button className='h-[40px] border-2 pr-2 pl-2 rounded-3xl self-center m-1.5 cursor-pointer hover:bg-black hover:text-white'>Bloggger</button>
+            <button className='h-[40px] border-2 pr-2 pl-2 rounded-3xl self-center m-1.5 cursor-pointer hover:bg-black hover:text-white'>Programming</button>
+            <button className='h-[40px] border-2 pr-2 pl-2 rounded-3xl self-center m-1.5 cursor-pointer hover:bg-black hover:text-white'>Programmmmmming</button>
+            <button className='h-[40px] border-2 pr-2 pl-2 rounded-3xl self-center m-1.5 cursor-pointer hover:bg-black hover:text-white'>116</button>
+            <button className='h-[40px] border-2 pr-2 pl-2 rounded-3xl self-center m-1.5 cursor-pointer hover:bg-black hover:text-white'>Progggggramming</button>
+            <button className='h-[40px] border-2 pr-2 pl-2 rounded-3xl self-center m-1.5 cursor-pointer hover:bg-black hover:text-white'>Blogggs</button>
+            <button className='h-[40px] border-2 pr-2 pl-2 rounded-3xl self-center m-1.5 cursor-pointer hover:bg-black hover:text-white'>Programming</button>
 
           </div>
           <a href="" className='ml-7 text-gray-400 font-light underline decoration-dotted hover:decoration-solid'>See the full list</a>
