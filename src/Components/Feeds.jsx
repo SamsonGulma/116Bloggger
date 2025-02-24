@@ -13,7 +13,7 @@ const Feeds = () => {
               
           <div className='your_favorite_topics  col-start-1 row-span-1'> <Heros/> </div>
 
-            <div className='all_the_rest_blogggs'>
+            <div className='all_the_rest_blogggs '>
                 <AllTheRestBlogggsHero/>
               </div>
               
