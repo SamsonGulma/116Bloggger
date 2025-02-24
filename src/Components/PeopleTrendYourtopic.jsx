@@ -4,8 +4,8 @@ import {FaLeaf} from 'react-icons/fa'
 
 const PeopleTrendYourtopic = () => {
   return (
-      <div className=''>
-        <div className='people-to-follow mt-4 '>
+      <div className='mt-4 ml-5'>
+        <div className='people-to-follow  '>
           <div className='flex flex-row ml-7 mt-7 mb-5 items-center'>
             <MdPeople className=' text-lg'/>
             <h1 className='ml-1 font-medium text-lg'>People who to follow</h1>

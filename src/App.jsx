@@ -1,6 +1,6 @@
 import SideNavbar from './Components/SideNavbar'
 import UpNavbar from './Components/UpNavbar'
-import Feeds from './Components/Feeds'
+import FeedsContainer from './Components/FeedsContainer'
 import './assets/Styles/App.css'
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
       <div className='flex'>
       <UpNavbar />
       <SideNavbar/>
-      <Feeds />
+      <FeedsContainer />
       
       </div>
     </div>

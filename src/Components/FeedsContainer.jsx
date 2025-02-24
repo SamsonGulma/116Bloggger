@@ -1,5 +1,5 @@
 import 'react'
-import '../assets/Styles/Feeds.css'
+import '../assets/Styles/FeedsContainer.css'
 import PeopleTrendYourtopic from './PeopleTrendYourtopic'
 import Heros from './FavoriteTopicsHero'
 import AllTheRestBlogggsHero from './AllTheRestBlogggsHero'
