@@ -4,8 +4,8 @@ import { MdBookmark } from 'react-icons/md'
 
 const Heros = () => {
   return (
-    <div className='fav_card_one  gird grid-cols-8 grid-rows-8 shadow-2xl rounded-2xl border-1 border-gray-200'>
-          <div className='flex flex-col row-start-1 row-end-1 col-start-1 col-end-1'>
+    <div className='fav_card_one'>
+        <div className='flex flex-col min-h-0 h-auto shadow-2xl rounded-2xl border-1 border-gray-200'>
               
         <div className='flex pl-7 pt-3'>
             <div className=''>
@@ -38,7 +38,7 @@ const Heros = () => {
          </div>
                           
           </div>
-          
+
 
         </div>
 
