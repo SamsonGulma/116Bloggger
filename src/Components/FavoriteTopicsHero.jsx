@@ -24,7 +24,7 @@ const Heros = () => {
                     </div>
                                 
                     <div className='flex flex-row'>
-                        <p className='underline decoration-dotted pl-2 font-semibold cursor-pointer'>Read more -&gt;</p>
+                        <a href={`/bloggg/${bloggg.id}`} className='underline decoration-dotted pl-2 font-semibold cursor-pointer'>Read more -&gt;</a>
                     </div>
                             
                     <div className='grid grid-cols-2 auto-rows-auto ml-2 mt-4 mb-4 '>
