@@ -2,6 +2,7 @@ import SideNavbar from './Components/SideNavbar'
 import UpNavbar from './Components/UpNavbar'
 import FeedsContainer from './Components/FeedsContainer'
 import './assets/Styles/App.css'
+import FavoriteTopicsHero from './Components/FavoriteTopicsHero'
 
 function App() {
 
@@ -9,7 +10,8 @@ function App() {
     <div className=''>
       <div className='flex'>
       <UpNavbar />
-      <SideNavbar/>
+      <SideNavbar />
+      <FavoriteTopicsHero />
       <FeedsContainer />
       
       </div>
