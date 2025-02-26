@@ -13,22 +13,17 @@ const Heros = () => {
               
         <div className='flex pl-7 pt-3'>
             <div className=''>
-                <img className=' h-[30px] w-[30px] bg-black rounded-lg self-center' src="" alt="" />
+                <img className=' h-[30px] w-[30px] bg-black rounded-lg self-center' src={bloggg.content_author_picture} alt="" />
             </div>
 
-             <h4 className='overflow-hidden truncate self-center pl-2'>Samson Gulma Tekeste 1</h4>
+                            <h4 className='overflow-hidden truncate self-center pl-2'>{ bloggg.content_author_name }</h4>
         </div>
           
         <div className='title_content_authorImg_author_time_bookmark  overflow-hidden'>
-            <h1 className='font-extrabold overflow-hidden pl-2 '>
-                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti beatae et repellat ea ad
-            </h1>
+                            <h1 className='font-extrabold overflow-hidden pl-2 '>{ bloggg.content_title }</h1>
 
             <p className='overflow-hidden pl-2 pr-2'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Possimus exercitationem quasi dolor, quis, rerum odio, a tenetur
-                deleniti error voluptatibus voluptatem. Sapiente labore odio corporis,
-                ecusandae totam eveniet cum fugit.
+                {bloggg.content_text}
             </p>
         </div>
                       
@@ -37,7 +32,7 @@ const Heros = () => {
         </div>
                 
         <div className='grid grid-cols-2 auto-rows-auto ml-2 mt-4 mb-4 '>
-            <p className='font-extralight'>0sec ago</p>
+            <p className='font-extralight'>{bloggg.content_posted_date}</p>
             <MdBookmark className=' h-5 w-5 self-center text-right justify-self-end mr-7'/>
          </div>
                           
