@@ -8,7 +8,7 @@ const Heros = () => {
         <div className='fav_card_one'>
             {
             blogggs.map((bloggg) => (
-                <div key={''} className='flex flex-col md: min-h-0 h-auto shadow-2xl rounded-2xl border-1 border-gray-200'>
+                <div key={''} className='flex flex-col sm:flex-row min-h-0 h-auto shadow-2xl rounded-2xl border-1 border-gray-200'>
                 
                     <div className='flex pl-7 pt-3'>
                         <div className=''>
