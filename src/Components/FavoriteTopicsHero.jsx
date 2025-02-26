@@ -9,14 +9,14 @@ const Heros = () => {
         <div className='fav_card_one'>
             {
             blogggs.map((bloggg) => (
-                <div key={bloggg.id} className='flex flex-col min-h-0 h-auto shadow-2xl rounded-2xl border-1 border-gray-200'>
+                <div key={''} className='flex flex-col min-h-0 h-auto shadow-2xl rounded-2xl border-1 border-gray-200'>
                 
                     <div className='flex pl-7 pt-3'>
                         <div className=''>
                             <img className=' h-[30px] w-[30px] bg-black rounded-lg self-center' src={bloggg.content_author_picture} alt="" />
                         </div>
 
-                    <h4 className='overflow-hidden truncate self-center pl-2'>{ bloggg.content_author_name }</h4>
+                        <h4 className='overflow-hidden truncate self-center pl-2'>{bloggg.content_author_name}</h4>
                     </div>
                     
                     <div className='title_content_authorImg_author_time_bookmark  overflow-hidden'>
