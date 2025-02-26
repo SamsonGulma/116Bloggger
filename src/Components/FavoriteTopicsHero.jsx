@@ -1,10 +1,12 @@
 import 'react'
 import { MdBookmark } from 'react-icons/md'
+import blogggs from '../blogggs.json'
 
 
 const Heros = () => {
-  return (
-    <div className='fav_card_one'>
+    console.log(blogggs);
+    return (
+        <div className='fav_card_one'>
         <div className='flex flex-col min-h-0 h-auto shadow-2xl rounded-2xl border-1 border-gray-200'>
               
         <div className='flex pl-7 pt-3'>
