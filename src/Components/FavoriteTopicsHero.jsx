@@ -4,7 +4,6 @@ import blogggs from '../blogggs.json'
 
 
 const Heros = () => {
-    console.log(blogggs);
     return (
         <div className='fav_card_one'>
             {
