@@ -7,7 +7,9 @@ const Heros = () => {
     console.log(blogggs);
     return (
         <div className='fav_card_one'>
-        <div className='flex flex-col min-h-0 h-auto shadow-2xl rounded-2xl border-1 border-gray-200'>
+            {
+                blogggs.map((bloggg) => {
+                    <div className='flex flex-col min-h-0 h-auto shadow-2xl rounded-2xl border-1 border-gray-200'>
               
         <div className='flex pl-7 pt-3'>
             <div className=''>
@@ -40,7 +42,8 @@ const Heros = () => {
          </div>
                           
           </div>
-
+                })
+            }
 
         </div>
 
