@@ -1,8 +1,13 @@
 import 'react'
+import blogggs from '../blogggs.json'
+import FavoriteTopicsHero from './FavoriteTopicsHero'
+
 
 const FavoriteTopicsListings = () => {
   return (
-    <div>FavoriteTopicsListings</div>
+      <div>
+          <FavoriteTopicsHero blogggs={blogggs} />
+    </div>
   )
 }
 

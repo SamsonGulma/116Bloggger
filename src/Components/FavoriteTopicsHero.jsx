@@ -1,8 +1,7 @@
 import { MdBookmark } from 'react-icons/md'
-import blogggs from '../blogggs.json'
 
 
-const FavoriteTopicsHero = () => {
+const FavoriteTopicsHero = (blogggs) => {
     
     return (
         <div className='fav_card_one mb-7'>
