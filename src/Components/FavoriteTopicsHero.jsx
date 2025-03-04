@@ -1,6 +1,6 @@
 import { MdBookmark } from 'react-icons/md'
 import blogggs from '../blogggs.json'
-import { useState } from 'react';
+import { useState} from 'react';
 
 
 const FavoriteTopicsHero = () => {
@@ -10,7 +10,7 @@ const FavoriteTopicsHero = () => {
     let contentText = blogggs.content_text;
 
    if (!showFullContentText) {
-       contentText = contentText.substring(0, 50) + '...';
+       contentText = contentText.substring(50);
     }
 
     
