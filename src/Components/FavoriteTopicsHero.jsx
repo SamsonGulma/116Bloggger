@@ -4,8 +4,7 @@ import { useState} from 'react';
 
 
 const FavoriteTopicsHero = () => {
-    const favoriteTopics = blogggs.content_title
-    favoriteTopics.slice(0, 2)
+    
     const [showFullContentText, setShowFullContentText] = useState(false)
 
     let contentText = blogggs.content_text;
