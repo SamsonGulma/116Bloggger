@@ -1,18 +1,10 @@
 import { MdBookmark } from 'react-icons/md'
 import blogggs from '../blogggs.json'
-import { useState} from 'react';
 
 
 const FavoriteTopicsHero = () => {
     
-    const [showFullContentText, setShowFullContentText] = useState(false)
-
-    let contentText = blogggs.content_text;
     
-    if (!showFullContentText) {
-       contentText = contentText.substring(0, 50);
-    }
-
     
     return (
         <div className='fav_card_one mb-7'>
@@ -30,12 +22,12 @@ const FavoriteTopicsHero = () => {
                     
                     <div className='title_content_authorImg_author_time_bookmark  overflow-hidden'>
                         <h1 className='font-extrabold overflow-hidden pl-2 '>{ bloggg.content_title }</h1>
-                        <p className='overflow-hidden pl-2 pr-2'>{contentText}</p>
+                        <p className='overflow-hidden pl-2 pr-2'>{bloggg.content_text}</p>
                     </div>
                                 
                     <div className='flex flex-row'>
-                        <button onClick={ () => setShowFullContentText((previousState)=> !previousState)} className=' border-none underline decoration-dotted pl-2 font-semibold cursor-pointer'>
-                           { showFullContentText ? 'Show Less' : 'Show More'}
+                        <button className=' border-none underline decoration-dotted pl-2 font-semibold cursor-pointer'>
+                           
                         </button>
                     </div>
                             
