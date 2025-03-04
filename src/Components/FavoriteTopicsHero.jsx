@@ -3,7 +3,7 @@ import blogggs from '../blogggs.json'
 
 
 const FavoriteTopicsHero = () => {
-    const favoriteTopics = blogggs.slice(0, 1);
+    const favoriteTopics = blogggs.slice(0, 2);
 
    
     return (
