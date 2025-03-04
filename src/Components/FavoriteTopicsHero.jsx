@@ -5,7 +5,6 @@ import blogggs from '../blogggs.json'
 const FavoriteTopicsHero = () => {
     const favoriteTopics = blogggs.slice(0, 2);
     console.log(blogggs);
-   
     return (
         <div className='fav_card_one mb-7'>
             {
