@@ -4,8 +4,6 @@ import blogggs from '../blogggs.json'
 
 const FavoriteTopicsHero = () => {
     
-    
-    
     return (
         <div className='fav_card_one mb-7'>
             {
