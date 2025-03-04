@@ -1,12 +1,13 @@
-import 'react'
 import { MdBookmark } from 'react-icons/md'
 import blogggs from '../blogggs.json'
 
 
-const Heros = () => {
+const FavoriteTopicsHero = () => {
     const favoriteTopics = blogggs.slice(0, 1);
+
+   
     return (
-        <div className='fav_card_one'>
+        <div className='fav_card_one mb-7'>
             {
             favoriteTopics.map((bloggg) => (
                 <div key={''} className='flex flex-col  shadow-2xl rounded-2xl border-1 border-gray-200'>
@@ -25,7 +26,9 @@ const Heros = () => {
                     </div>
                                 
                     <div className='flex flex-row'>
-                        <a href={`/bloggg/${bloggg.id}`} className='underline decoration-dotted pl-2 font-semibold cursor-pointer'>Read more -&gt;</a>
+                        <a href={`/bloggg/${bloggg.id}`} className='underline decoration-dotted pl-2 font-semibold cursor-pointer'>
+                           
+                        </a>
                     </div>
                             
                     <div className='grid grid-cols-2 auto-rows-auto ml-2 mt-4 mb-4 '>
@@ -43,4 +46,4 @@ const Heros = () => {
   )
 }
 
-export default Heros
+export default FavoriteTopicsHero
