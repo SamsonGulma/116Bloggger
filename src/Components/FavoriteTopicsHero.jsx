@@ -10,7 +10,7 @@ const FavoriteTopicsHero = () => {
     let contentText = blogggs.content_text;
 
    if (!showFullContentText) {
-       contentText = contentText.substring(0, 70) + '...';
+       contentText = contentText.substring(0, 50) + '...';
     }
 
     
