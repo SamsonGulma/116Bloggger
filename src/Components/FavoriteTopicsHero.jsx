@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 const FavoriteTopicsHero = () => {
    const favoriteTopics = blogggs.slice(0, 2);
-    const [showFullContentText, setShowFullContentText] = useState(false)
+    const [showFullContentText, setShowFullContentText] = useState(true)
 
     let contentText = blogggs.content_text;
 
