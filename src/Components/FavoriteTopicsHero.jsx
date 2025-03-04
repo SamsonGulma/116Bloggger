@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 const FavoriteTopicsHero = () => {
    const favoriteTopics = blogggs.slice(0, 2);
-    const [showFullContentText, setShowFullContentText] = useState(true)
+    const [showFullContentText, setShowFullContentText] = useState(false)
 
     let contentText = blogggs.content_text;
 
@@ -34,9 +34,9 @@ const FavoriteTopicsHero = () => {
                     </div>
                                 
                     <div className='flex flex-row'>
-                        <a href='' onClick={ () => setShowFullContentText((previousState)=> !previousState)} className='underline decoration-dotted pl-2 font-semibold cursor-pointer'>
+                        <button onClick={ () => setShowFullContentText((previousState)=> !previousState)} className=' border-none underline decoration-dotted pl-2 font-semibold cursor-pointer'>
                            { showFullContentText ? 'Show Less' : 'Show More'}
-                        </a>
+                        </button>
                     </div>
                             
                     <div className='grid grid-cols-2 auto-rows-auto ml-2 mt-4 mb-4 '>
