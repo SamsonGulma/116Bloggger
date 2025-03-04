@@ -6,7 +6,7 @@ import FavoriteTopicsHero from './FavoriteTopicsHero'
 const FavoriteTopicsListings = () => {
   return (
       <div>
-          <FavoriteTopicsHero blogggs={blogggs} />
+          <FavoriteTopicsHero key={blogggs.id} blogggs={blogggs} />
     </div>
   )
 }
