@@ -4,7 +4,8 @@ import { useState} from 'react';
 
 
 const FavoriteTopicsHero = () => {
-   const favoriteTopics = blogggs
+    const favoriteTopics = blogggs.content_title
+    favoriteTopics.slice(0, 2)
     const [showFullContentText, setShowFullContentText] = useState(false)
 
     let contentText = blogggs.content_text;
@@ -18,7 +19,7 @@ const FavoriteTopicsHero = () => {
     return (
         <div className='fav_card_one mb-7'>
             {
-            favoriteTopics.map((bloggg) => (
+            blogggs.map((bloggg) => (
                 <div key={''} className='flex flex-col  shadow-2xl rounded-2xl border-1 border-gray-200'>
                 
                     <div className='flex pl-7 pt-3'>
