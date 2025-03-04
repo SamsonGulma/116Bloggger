@@ -32,7 +32,7 @@ const AllTheRestBlogggsHero = () => {
             </div>
                                 
             <div className='flex flex-row'>
-                <p className='underline decoration-dotted pl-2 font-semibold'>Read more -&gt;</p>
+                <p className='underline decoration-dotted pl-2 font-semibold'>Read more</p>
             </div>
                           
             <div className='grid grid-cols-2 auto-rows-auto ml-2 mt-4 mb-4 '>
