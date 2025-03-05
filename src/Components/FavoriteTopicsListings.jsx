@@ -3,8 +3,9 @@ import blogggs from '../blogggs.json'
 import FavoriteTopicsHero from './FavoriteTopicsHero'
 
 
+console.log(blogggs);
+
 const FavoriteTopicsListings = () => {
-    console.log(blogggs)
   return (
       <div key={''} className='flex flex-col  shadow-2xl rounded-2xl border-1 border-gray-200'> 
                     
