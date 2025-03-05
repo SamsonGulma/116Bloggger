@@ -1,21 +1,18 @@
-import SideNavbar from './Components/SideNavbar'
-import UpNavbar from './Components/UpNavbar'
-import FeedsContainer from './Components/FeedsContainer'
+import {
+  Route,
+  createBrowserRouter,
+  createRoutesFromElements,
+  RouterProvider
+} from 'react-router-dom'
+
 import './assets/Styles/App.css'
 
-function App() {
+const router = createBrowserRouter(
+  createRoutesFromElements(<Route path='/about' element={ <h1>Blogggggg</h1> } />)
+);
 
-  return (
-    <div className=''>
-      <div className='flex'>
-      <UpNavbar />
-      <SideNavbar />
-      <FeedsContainer />
-      
-      </div>
-    </div>
-      
-  )
+function App() {
+  return <RouterProvider router={router}/>
 }
 
 export default App
