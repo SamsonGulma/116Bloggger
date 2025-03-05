@@ -8,7 +8,7 @@ const FavoriteTopicsListings = () => {
       <div>
           {
               blogggs.map((bloggg) => (
-                  <FavoriteTopicsHero key={bloggg.id} blogggs={bloggg} />
+                  <FavoriteTopicsHero key={bloggg.id} bloggg={bloggg} />
               ))
           }
     </div>
