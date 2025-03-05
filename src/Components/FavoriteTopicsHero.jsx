@@ -1,12 +1,17 @@
+import { useState } from 'react'
 import { MdBookmark } from 'react-icons/md'
 
 
 const FavoriteTopicsHero = ({ bloggg }) => {
-    const contentText = bloggg.content_text
-    
+    let contentText = bloggg.content_text
+    const [showMore, setShowMore] = useState(false)
+
+    if(!showMore){ contentText = contentText.substring(0, 90) + '...'}
+
+
 
     return (
-        <div className='fav_card_one mb-7 shadow-2xl rounded-2xl border-1 border-gray-200'>
+        <div className='fav_card_one mb-7 rounded-2xl border-1 border-gray-200'>
             <div className='flex pl-7 pt-3'>
                 <div className=''>
                      <img className=' h-[30px] w-[30px] bg-black rounded-lg self-center' src={bloggg.content_author_picture} alt="" />
@@ -17,12 +22,13 @@ const FavoriteTopicsHero = ({ bloggg }) => {
                     
             <div className='title_content_authorImg_author_time_bookmark  overflow-hidden'>
                 <h1 className='font-extrabold text-xl overflow-hidden pl-2 '>{ bloggg.content_title }</h1>
-                <p className='overflow-hidden pl-2 pr-2 text-lg'>{contentText.substring(0, 90) + '...'}</p>
+                <p className='overflow-hidden pl-2 pr-2 text-lg'>{contentText}</p>
             </div>
                                 
             <div className='flex flex-row'>
-                <button className=' border-none underline decoration-dotted pl-2 font-semibold cursor-pointer'>
-                           
+                <button onClick={() => setShowMore((preState)=> !preState)}
+                    className=' border-none underline decoration-dotted pl-2 font-light cursor-pointer'>
+                    {showMore ? 'Show Less': 'Show More'}
                  </button>
             </div>
                             
@@ -32,7 +38,7 @@ const FavoriteTopicsHero = ({ bloggg }) => {
             </div>
                 
             
-
+            
         </div>
 
 

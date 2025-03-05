@@ -3,7 +3,7 @@ import FavoriteTopicsHero from './FavoriteTopicsHero'
 import blogggs from '../blogggs.json'
 
 console.log(blogggs)
-const forYou = blogggs.slice(0, 1)
+const forYou = blogggs.slice(0, 4)
 
 const FavoriteTopicsListings = () => {
   return (
