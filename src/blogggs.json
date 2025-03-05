@@ -1,7 +1,7 @@
 [
     { 
       "id": 1,
-      "content_title": "Exploring the Future of AI Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore vel eius dignissimos quidem atque nobis quod beatae necessitatibus error, quo quae praesentium animi officia accusantium libero a ea corporis. Excepturi.",
+      "content_title": "Exploring the Future of AI.",
       "content_text": "Artificial Intelligence is transforming the way we interact with technology    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore vel eius dignissimos quidem atque nobis quod beatae necessitatibus error, quo quae praesentium animi officia accusantium libero a ea corporis. Excepturi.",
       "content_picture": "https://example.com/images/ai-future.jpg",
       "content_author_name": "John Doe",
@@ -11,7 +11,7 @@
     },
     {
       "id": 2,
-      "content_title": "10 Tips for Effective Remote Work    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore vel eius dignissimos quidem atque nobis quod beatae necessitatibus error, quo quae praesentium animi officia accusantium libero a ea corporis. Excepturi.",
+      "content_title": "10 Tips for Effective Remote Work.",
       "content_text": "Working remotely has become the new normal. Here are 10 tips to stay productive    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore vel eius dignissimos quidem atque nobis quod beatae necessitatibus error, quo quae praesentium animi officia accusantium libero a ea corporis. Excepturi.",
       "content_picture": "https://example.com/images/remote-work.jpg",
       "content_author_name": "Jane Smith",
@@ -21,7 +21,7 @@
     },
     {
       "id": 3,
-      "content_title": "The Rise of Quantum Computing    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore vel eius dignissimos quidem atque nobis quod beatae necessitatibus error, quo quae praesentium animi officia accusantium libero a ea corporis. Excepturi.",
+      "content_title": "The Rise of Quantum Computing.",
       "content_text": "Quantum computing is set to revolutionize industries. Let's explore how    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore vel eius dignissimos quidem atque nobis quod beatae necessitatibus error, quo quae praesentium animi officia accusantium libero a ea corporis. Excepturi. ",
       "content_picture": "https://example.com/images/quantum.jpg",
       "content_author_name": "Alice Brown",

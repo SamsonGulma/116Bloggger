@@ -1,9 +1,12 @@
 import { MdBookmark } from 'react-icons/md'
 
+
 const FavoriteTopicsHero = ({ bloggg }) => {
+    const contentText = bloggg.content_text
     
+
     return (
-        <div className='fav_card_one mb-7'>
+        <div className='fav_card_one mb-7 shadow-2xl rounded-2xl border-1 border-gray-200'>
             <div className='flex pl-7 pt-3'>
                 <div className=''>
                      <img className=' h-[30px] w-[30px] bg-black rounded-lg self-center' src={bloggg.content_author_picture} alt="" />
@@ -13,8 +16,8 @@ const FavoriteTopicsHero = ({ bloggg }) => {
             </div>
                     
             <div className='title_content_authorImg_author_time_bookmark  overflow-hidden'>
-                <h1 className='font-extrabold overflow-hidden pl-2 '>{ bloggg.content_title }</h1>
-                <p className='overflow-hidden pl-2 pr-2'>{bloggg.content_text}</p>
+                <h1 className='font-extrabold text-xl overflow-hidden pl-2 '>{ bloggg.content_title }</h1>
+                <p className='overflow-hidden pl-2 pr-2 text-lg'>{contentText.substring(0, 90) + '...'}</p>
             </div>
                                 
             <div className='flex flex-row'>

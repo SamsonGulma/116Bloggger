@@ -1,18 +1,19 @@
 import 'react'
-import blogggs from '../blogggs.json'
 import FavoriteTopicsHero from './FavoriteTopicsHero'
+import blogggs from '../blogggs.json'
 
-
-console.log(blogggs);
+console.log(blogggs)
+const forYou = blogggs.slice(0, 1)
 
 const FavoriteTopicsListings = () => {
   return (
-      <div key={''} className='flex flex-col  shadow-2xl rounded-2xl border-1 border-gray-200'> 
+      <div key={''} className='flex flex-col  '> 
                     
           {
-              blogggs.map((bloggg) => (
-                  <FavoriteTopicsHero key={bloggg.id} bloggg={bloggg} />
+              forYou.map((bloggg) => (
+                  <FavoriteTopicsHero key={bloggg.id} bloggg={ bloggg} />
               ))
+              
           }
                                     
         </div>
