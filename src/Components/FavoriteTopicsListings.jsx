@@ -5,13 +5,17 @@ import FavoriteTopicsHero from './FavoriteTopicsHero'
 
 const FavoriteTopicsListings = () => {
   return (
-      <div>
+      <div key={''} className='flex flex-col  shadow-2xl rounded-2xl border-1 border-gray-200'> 
+                    
           {
               blogggs.map((bloggg) => (
-                  <FavoriteTopicsHero key={bloggg.id} blogggs={blogggs} />
+                  <FavoriteTopicsHero key={bloggg.id} bloggg={bloggg} />
               ))
           }
-    </div>
+                                    
+        </div>
+        
+          
   )
 }
 
