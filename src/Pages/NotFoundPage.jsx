@@ -1,8 +1,9 @@
 const NotFoundPage = () => {
   return (
-    <div>
-          404-Not Found
-          <h1>This page doesn`&lsquo;`t Exit</h1>
+      <div className="pt-[100px] justify-self-center ">
+          <h1 className="place-self-center">404-Not Found</h1>
+          <h1 className="place-self-center">This page doesn&lsquo;t Exist</h1>
+
     </div>
   )
 }

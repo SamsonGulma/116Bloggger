@@ -12,7 +12,7 @@ import BookmarksPage from './Pages/BookmarksPage';
 import NotificationsPage from './Pages/NotificationsPage';
 import WriteBlogggPage from './Pages/WriteBlogggPage';
 import PennyBlogggsPage from './Pages/PennyBlogggsPage';
-
+import NotFoundPage from './Pages/NotFoundPage';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -23,7 +23,7 @@ const router = createBrowserRouter(
       <Route path='/notifications' element={<NotificationsPage/>} />
       <Route path='/bookmarks' element={<BookmarksPage/>} />
       <Route path='/writebloggg' element={<WriteBlogggPage/>} />
-        
+      <Route path='*' element={<NotFoundPage/>} />
     </Route>
   )
 );
