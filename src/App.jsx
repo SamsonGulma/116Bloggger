@@ -11,15 +11,17 @@ import ProfilePage from './Pages/ProfilePage';
 import BookmarksPage from './Pages/BookmarksPage';
 import NotificationsPage from './Pages/NotificationsPage';
 import WriteBlogggPage from './Pages/WriteBlogggPage';
+import PennyBlogggsPage from './Pages/PennyBlogggsPage';
 
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<MainLayouts/>}>
       <Route index element={<HomePage />} />
-      <Route path='/bookmarks' element={<BookmarksPage/>} />
+      <Route path='/profile' element={<ProfilePage />} />
+      <Route path='/pennyblogggs' element={<PennyBlogggsPage/>} />
       <Route path='/notification' element={<NotificationsPage/>} />
-      <Route path='/profile' element={<ProfilePage/>} />
+      <Route path='/bookmarks' element={<BookmarksPage/>} />
       <Route path='/writebloggg' element={<WriteBlogggPage/>} />
         
     </Route>
