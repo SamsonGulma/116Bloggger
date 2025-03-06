@@ -1,8 +1,13 @@
 import 'react'
+import SideNavbar from '../Components/SideNavbar'
+import UpNavbar from '../Components/UpNavbar'
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <>
+        <SideNavbar />
+        <UpNavbar/>    
+    </>
   )
 }
 

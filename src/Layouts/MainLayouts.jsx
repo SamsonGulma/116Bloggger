@@ -1,4 +1,3 @@
-import 'react'
 
 const MainLayouts = () => {
   return (

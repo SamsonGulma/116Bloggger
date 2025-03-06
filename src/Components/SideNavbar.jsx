@@ -4,7 +4,6 @@ import {
     MdOutlineExtension, MdOutlineBookmarks,
 } from 'react-icons/md'
 import { FaLeaf, FaRegEdit } from 'react-icons/fa'
-import '../assets/Styles/SideNavbar.css'
 
 const SideNavbar = () => {
   return (

@@ -1,5 +1,4 @@
 import 'react'
-import '../assets/Styles/UpNavbar.css'
 import { MdSearch, MdAccountCircle,  MdMoreVert,} from 'react-icons/md'
 
 const UpNavbar = () => {

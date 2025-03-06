@@ -4,11 +4,10 @@ import {
   createRoutesFromElements,
   RouterProvider
 } from 'react-router-dom'
-
 import './assets/Styles/App.css'
 
 const router = createBrowserRouter(
-  createRoutesFromElements(<Route path='/about' element={ <h1>Blogggggg</h1> } />)
+  createRoutesFromElements(<Route path='/' element={ <h1>My bloggg</h1>} />)
 );
 
 function App() {
