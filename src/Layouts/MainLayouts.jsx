@@ -1,7 +1,13 @@
-
+import { Outlet } from 'react-router-dom'
+import SideNavbar from '../Components/SideNavbar'
+import UpNavbar from '../Components/UpNavbar'
 const MainLayouts = () => {
   return (
-    <div>MainLayouts</div>
+    <>
+      <SideNavbar />
+      <UpNavbar/>
+      <Outlet/>
+    </>
   )
 }
 

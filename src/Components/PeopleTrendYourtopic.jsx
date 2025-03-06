@@ -1,10 +1,11 @@
 import 'react'
 import { MdPeople, MdTrendingUp} from 'react-icons/md'
-import {FaLeaf} from 'react-icons/fa'
+import { FaLeaf } from 'react-icons/fa'
+
 
 const PeopleTrendYourtopic = () => {
   return (
-      <div className='mt-4 ml-5'>
+    <div className='mt-4 ml-5'>
         <div className='people-to-follow  '>
           <div className='flex flex-row ml-7 mt-7 mb-5 items-center'>
             <MdPeople className=' text-lg'/>

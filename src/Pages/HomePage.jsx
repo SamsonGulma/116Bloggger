@@ -1,13 +1,11 @@
-import 'react'
-import SideNavbar from '../Components/SideNavbar'
-import UpNavbar from '../Components/UpNavbar'
+
+import FeedsContainer from '../Components/FeedsContainer'
 
 const HomePage = () => {
   return (
-    <>
-        <SideNavbar />
-        <UpNavbar/>    
-    </>
+    <div className='flex'>
+      <FeedsContainer/>
+    </div>
   )
 }
 
