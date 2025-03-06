@@ -17,10 +17,10 @@ import PennyBlogggsPage from './Pages/PennyBlogggsPage';
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<MainLayouts/>}>
-      <Route index element={<HomePage />} />
       <Route path='/profile' element={<ProfilePage />} />
+      <Route path='/home' element={<HomePage />} />
       <Route path='/pennyblogggs' element={<PennyBlogggsPage/>} />
-      <Route path='/notification' element={<NotificationsPage/>} />
+      <Route path='/notifications' element={<NotificationsPage/>} />
       <Route path='/bookmarks' element={<BookmarksPage/>} />
       <Route path='/writebloggg' element={<WriteBlogggPage/>} />
         
