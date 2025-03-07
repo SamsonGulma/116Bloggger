@@ -1,6 +1,10 @@
+import FavoriteTopicsListings from "../Components/FavoriteTopicsListings"
+
 const PennyBlogggsPage = () => {
   return (
-    <div>PennyBlogggsPage</div>
+    <div>
+      <FavoriteTopicsListings/>
+    </div>
   )
 }
 
