@@ -11,7 +11,7 @@ const FavoriteTopicsListings = () => {
                     
           {
               forYou.map((bloggg) => (
-                  <FavoriteTopicsHero key={bloggg.id} bloggg={ bloggg} />
+                  <FavoriteTopicsHero key={bloggg.id} bloggg={bloggg} />
               ))
               
           }
