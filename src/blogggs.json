@@ -1,5 +1,5 @@
-{
-  "blogggs": [
+
+  [
     { 
       "id": 1,
       "content_title": "Exploring the Future of AI.",
@@ -60,5 +60,4 @@
       "content_posted_date": "2025-02-22T09:45:00Z",
       "bookmark": false
     }
-  ]
-}
+ ]
