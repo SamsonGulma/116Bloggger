@@ -23,7 +23,7 @@ const router = createBrowserRouter(
       <Route path='/notifications' element={<NotificationsPage/>} />
       <Route path='/bookmarks' element={<BookmarksPage/>} />
       <Route path='/writebloggg' element={<WriteBlogggPage/>} />
-      <Route path='/*' element={<NotFoundPage/>} />
+      <Route path='*' element={<NotFoundPage/>} />
     </Route>
   )
 );
