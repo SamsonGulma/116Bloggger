@@ -4,7 +4,7 @@ import { FaLeaf } from 'react-icons/fa'
 
 const UpNavbar = () => {
   return (
-      <div className='upper-nav-bar fixed h-[10vh] w-full grid grid-cols-2 gap-4 border-b-4 border-b-gray-100 bg-transparent backdrop-blur-3xl z-100'>
+      <div className='upper-nav-bar fixed h-[85px] w-full grid grid-cols-2 gap-4 border-b-4 border-b-gray-100 bg-transparent backdrop-blur-3xl z-100'>
           <div  className='h-[10vh] w-24 absolute overflow-hidden pt-4 justify-self-start border-solid border-r-4 border-gray-100 cursor-pointer '>
             <FaLeaf className='  h-[40px] w-[40px] place-self-center'/>
           </div>
