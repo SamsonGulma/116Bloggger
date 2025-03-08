@@ -13,6 +13,7 @@ import NotificationsPage from './Pages/NotificationsPage';
 import WriteBlogggPage from './Pages/WriteBlogggPage';
 import PennyBlogggsPage from './Pages/PennyBlogggsPage';
 import NotFoundPage from './Pages/NotFoundPage';
+import SingleBlogggsPage from './Pages/SingleBlogggsPage';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -20,10 +21,11 @@ const router = createBrowserRouter(
       <Route path='/profile' element={<ProfilePage />} />
       <Route path='/home' element={<HomePage />} />
       <Route path='/pennyblogggs' element={<PennyBlogggsPage/>} />
+      <Route path='blogggs/:id' element={<SingleBlogggsPage />} />
       <Route path='/notifications' element={<NotificationsPage/>} />
       <Route path='/bookmarks' element={<BookmarksPage/>} />
       <Route path='/writebloggg' element={<WriteBlogggPage/>} />
-      <Route path='*' element={<NotFoundPage/>} />
+      <Route path='*' element={<NotFoundPage />} />
     </Route>
   )
 );
