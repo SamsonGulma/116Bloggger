@@ -1,10 +1,10 @@
-import 'react'
+import {Link} from 'react-router-dom'
 import { MdBookmark } from 'react-icons/md'
 
 
 const AllTheRestBlogggsHero = () => {
   return (
-      <div className=''>
+      <Link to="{`/blogggs/${bloggg.id}`}" className=''>
           <h1 className='text-2xl font-semibold pb-7'>All Blogggs</h1>
             <div className='flex pl-7 pt-3 '>
                 <div className=''>
@@ -39,7 +39,7 @@ const AllTheRestBlogggsHero = () => {
                 <p className='font-extralight'>0sec ago</p>
                 <MdBookmark className=' h-5 w-5 self-center text-right justify-self-end mr-7'/>
             </div>
-    </div>
+    </Link>
   )
 }
 
