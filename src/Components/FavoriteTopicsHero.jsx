@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { MdBookmark } from 'react-icons/md'
+import { Link } from 'react-router-dom'
 
 
 const FavoriteTopicsHero = ({ bloggg }) => {
@@ -9,7 +10,7 @@ const FavoriteTopicsHero = ({ bloggg }) => {
     if(!showMore){ contentText = contentText.substring(0, 90) + '...'}
 
     return (
-        <div className='fav_card_one mb-7 rounded-2xl border-1 border-gray-200'>
+        <Link to={`/bloggg/${bloggg.id}`} className='fav_card_one mb-7 rounded-2xl border-1 border-gray-200'>
             <div className='flex pl-7 pt-3'>
                 <div className=''>
                      <img className=' h-[30px] w-[30px] bg-black rounded-lg self-center' src={bloggg.content_author_picture} alt="" />
@@ -37,7 +38,7 @@ const FavoriteTopicsHero = ({ bloggg }) => {
                 
             
             
-        </div>
+        </Link>
 
 
   )

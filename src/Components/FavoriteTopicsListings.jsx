@@ -5,25 +5,17 @@ import FavoriteTopicsHero from './FavoriteTopicsHero'
 const FavoriteTopicsListings = ({ isHome = false }, ) => {
   const [blogggs, setBlogggs] = useState([]);
   const [loading, setLoading] = useState([]);
-  useEffect(() => {
-    const fetchBlogggs = async () => {
-      try {
-        const res = await fetch("http://localhost:3000/blogggs")
-        const data = res.json()
-        console.log('Fetched Data:', data)
-        setBlogggs(data);
-      } catch (error) {
-        console.log('Error Fetching the Data: ', error)
-      } finally {
-        setLoading(false);
-      }
-    }
-    fetchBlogggs();
-  }, [])
   
-  useEffect(() => {
-    console.log("blogggs:", blogggs); // Check if it's an array
-  }, [blogggs]);
+      useEffect(() => {
+        fetch("http://localhost:3000/blogggs")
+            .then((res) => res.json())
+            .then((data) => {
+                setBlogggs(data);
+                setLoading(false);
+            })
+            .catch((error) => console.log(error));
+      }, []);
+    
   
   console.log(Array.isArray(blogggs), typeof (blogggs))
 
